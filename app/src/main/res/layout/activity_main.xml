@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff0000"
     android:orientation="vertical"
     tools:context="com.example.linzero.kugoudemo.MainActivity">
 
@@ -13,8 +12,7 @@
         android:id="@+id/id_viewpager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
-    </android.support.v4.view.ViewPager>
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
 
     <include layout="@layout/bottom" />
 
