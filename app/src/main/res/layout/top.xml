@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="60dp"
-    android:gravity="center"
     android:background="#eee"
+    android:gravity="center"
     android:orientation="horizontal">
 
     <ImageView
@@ -89,6 +89,8 @@
         android:id="@+id/img_search"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:background="@drawable/customer_selector"
+        android:clickable="true"
         android:src="@mipmap/search" />
 
 </LinearLayout>

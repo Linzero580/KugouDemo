@@ -20,6 +20,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/customer_selector2"
+                android:clickable="true"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -41,6 +43,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/customer_selector2"
+                android:clickable="true"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -62,6 +66,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/customer_selector2"
+                android:clickable="true"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -83,6 +89,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/customer_selector2"
+                android:clickable="true"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -114,6 +122,8 @@
             android:layout_marginBottom="5dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="3dp"
+            android:background="@drawable/customer_selector2"
+            android:clickable="true"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
@@ -147,31 +157,96 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
             android:orientation="horizontal">
 
-            <ImageView
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/customer_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
                 android:paddingBottom="5dp"
-                android:src="@mipmap/music_library" />
+                android:paddingTop="10dp">
 
-            <ImageView
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/music_library" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="10dp"
+                    android:text="乐库" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@mipmap/radio" />
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:background="@drawable/customer_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
                 android:paddingBottom="5dp"
-                android:src="@mipmap/cool_group" />
+                android:paddingTop="10dp">
 
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/radio" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="10dp"
+                    android:text="电台" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/customer_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/cool_group" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="10dp"
+                    android:text="酷群" />
+            </LinearLayout>
         </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_margin="7dp"
+            android:background="#cccccc"
+            android:paddingTop="3dp" />
+
+        <include layout="@layout/item_exlist_item" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_margin="7dp"
+            android:background="#cccccc"
+            android:paddingTop="3dp" />
 
     </LinearLayout>
 </LinearLayout>

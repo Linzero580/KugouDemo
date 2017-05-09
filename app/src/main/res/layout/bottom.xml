@@ -10,6 +10,8 @@
         android:layout_height="40dp"
         android:layout_marginLeft="3dp"
         android:layout_marginTop="5dp"
+        android:background="@drawable/customer_selector"
+        android:clickable="true"
         android:src="@mipmap/player" />
 
     <LinearLayout
@@ -67,18 +69,24 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/customer_selector"
+                    android:clickable="true"
                     android:src="@mipmap/play_music" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/customer_selector"
+                    android:clickable="true"
                     android:src="@mipmap/next_music" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/customer_selector"
+                    android:clickable="true"
                     android:src="@mipmap/song_lists" />
 
 

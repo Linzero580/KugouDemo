@@ -53,41 +53,81 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/customer_selector"
-                android:clickable="true"
-                android:paddingBottom="8dp"
-                android:paddingLeft="10dp"
-                android:paddingTop="8dp"
-                android:text="自动下载写真"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:background="#ffffff"
+                android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/customer_selector"
-                android:clickable="true"
-                android:paddingBottom="8dp"
-                android:paddingLeft="10dp"
-                android:paddingTop="8dp"
-                android:text="头像/封面自动旋转"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/customer_selector"
+                    android:clickable="true"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="8dp"
+                    android:text="自动下载写真"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
-            <TextView
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/customer_selector"
-                android:clickable="true"
-                android:paddingBottom="8dp"
-                android:paddingLeft="10dp"
-                android:paddingTop="8dp"
-                android:text="边听边存"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/customer_selector"
+                    android:clickable="true"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="8dp"
+                    android:text="头像/封面自动旋转"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/customer_selector"
+                    android:clickable="true"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="8dp"
+                    android:text="边听边存"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"
@@ -120,17 +160,30 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/customer_selector"
-                android:clickable="true"
-                android:paddingBottom="8dp"
-                android:paddingLeft="10dp"
-                android:paddingTop="8dp"
-                android:text="线控切歌"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/customer_selector"
+                    android:clickable="true"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="8dp"
+                    android:text="线控切歌"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout

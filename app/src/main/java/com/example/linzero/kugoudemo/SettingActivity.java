@@ -1,7 +1,6 @@
 package com.example.linzero.kugoudemo;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 /**
@@ -15,7 +14,6 @@ public class SettingActivity extends AppCompatActivity {
         setContentView(R.layout.setting);
         setTitle("设置");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
     }
 
     @Override
