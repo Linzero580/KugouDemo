@@ -19,7 +19,7 @@ public class WelcomeActivity extends AppCompatActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //隐藏标题栏以及状态栏
+        //隐藏标题栏
         getSupportActionBar().hide();
         setContentView(R.layout.activity_welcome);
         handler.sendEmptyMessageDelayed(0, 3000);
