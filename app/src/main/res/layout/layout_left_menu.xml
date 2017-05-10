@@ -27,7 +27,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:gravity="left|center"
-            android:text="無名"
+            android:text="无名"
             android:textSize="20sp"
             android:textStyle="bold" />
 
